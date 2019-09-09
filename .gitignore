@@ -1,0 +1,10 @@
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+*/.DS_Store
+assignment
+traditional_cv/__pycache__
+traditional_cv/data

@@ -4,7 +4,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-img_gray = cv2.imread('/Users/mc/Documents/python/cv/week1/xxm.jpeg', 0)
+img_gray = cv2.imread('/Users/mc/Documents/python/cv/traditional_cv/xxm.jpeg', 0)
 cv2.imshow('xxm_gray', img_gray)
 key = cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -19,7 +19,7 @@ print(img_gray.dtype)
 print(img_gray.shape)  # h, w
 
 import cv2
-img = cv2.imread('/Users/mc/Documents/python/cv/week1/xxm.jpeg')
+img = cv2.imread('/Users/mc/Documents/python/cv/traditional_cv/xxm.jpeg')
 cv2.imshow('xxm', img)
 key = cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -95,7 +95,7 @@ cv2.destroyAllWindows()
 
 ###############################
 # gamma correction
-img_dark = cv2.imread('/Users/mc/Documents/python/cv/week1/xxm.jpeg')
+img_dark = cv2.imread('/Users/mc/Documents/python/cv/traditional_cv/xxm.jpeg')
 cv2.imshow('img_dark', img_dark)
 key = cv2.waitKey(0)
 cv2.destroyAllWindows()

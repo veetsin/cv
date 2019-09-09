@@ -7,4 +7,5 @@ build
 */.DS_Store
 assignment
 traditional_cv/__pycache__
+.DS_Store
 traditional_cv/data
